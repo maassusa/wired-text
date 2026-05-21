@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "wiredtext",
+  "version": "${version}",
+  "name": "WiredText",
+  "description": "Creepy dreamcore text overlay mod",
+  "authors": ["wiredtext"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.wiredtext.WiredTextMod"
+    ]
+  },
+  "mixins": [
+    "wiredtext.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "fabric-api": "*",
+    "minecraft": "~1.21.4"
+  }
+}
